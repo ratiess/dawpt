@@ -11,12 +11,51 @@
 |
 */
 
-Route::get('/index', function()
+Route::get('/inicio', function()
 {
 	return View::make('index');
 });
 
-Route::POST('index1','ViajesController@index2');
+Route::POST('index1','IndexController@index2');
 
+Route::get('/informacion', function()
+{
+	return View::make('about');
+});
 
+Route::POST('about1','AboutController@about2');
 
+Route::get('/objetivos', function()
+{
+	return View::make('objectives');
+});
+
+Route::POST('objectives1','ObjectivesController@objectives2');
+
+Route::get('/recomendados', function()
+{
+	return View::make('recommend');
+});
+
+Route::POST('recommend1','RecommendController@recommend2');
+
+Route::get('/contacto', function()
+{
+	return View::make('contact');
+});
+
+Route::POST('contact1','ContactController@contact2');
+
+Route::get('/iniciosesion', function()
+{
+	return View::make('login');
+});
+
+Route::POST('login1','LoginController@login2');
+
+Route::get('/registro', function()
+{
+	return View::make('register');
+});
+
+Route::POST('register1','RegisterController@register2');
