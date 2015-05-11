@@ -46,13 +46,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li><a href="index.html">Home</a></li>
-			   <li><a href="about.html">About</a></li>
-			   <li><a href="trainers.html">Trainers</a></li>
-			   <li><a href="classes.html">Classes</a></li>
-			   <li><a href="blog.html">Blog</a></li>
-			   <li><a href="pricing.html">Pricing</a></li>
-			   <li class="active"><a href="contact.html">Contact</a></li>
+			   <li class="active"><a href="index.blade.php">Inicio</a></li>
+			   <li><a href="about.blade.php">Información</a></li>
+			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="contact.blade.php">Contacto</a></li>
+                <li><a href="register.blade.php">Registro</a></li>
+               <li><a href="login.blade.php">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -63,136 +62,41 @@
     <div class="main">
        <iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2&amp;output=embed"> </iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2" style="color:#666;font-size:12px;text-align:left"> </a></small>
         <div class="about_banner_wrap">
-      	   <h1 class="m_11">Contact</h1>
+      	   <h1 class="m_11">Contacto</h1>
       	</div>
       	<div class="border"> </div>
       	<div class="rwo contact">
       	  <div class="container">
       		 <div class="col-md-8 contact-top">
-			  <h3>Send us a message</h3>
-			  <p class="contact_msg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+			  <h3>Envíanos un mensaje</h3>
+			  <p class="contact_msg">Si tienes alguna duda, no dudes y contacto con nosotros.</p>
 			     <form method="post" action="contact-post.html">
 					<div class="to">
-                     	<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                     	<input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
 					 	<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left:20px">
-					 	<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left:20px">
+					 	<input type="text" class="text" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left:20px">
 					</div>
 					<div class="text">
-	                   <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+	                   <textarea value="Mensaje:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensaje:</textarea>
 	                </div>
 	                <div class="form-submit1">
-			           <input name="submit" type="submit" id="submit" value="Submit Your Message"><br>
-			           <p class="m_msg">Make sure you put a valid email</p>
+			           <input name="submit" type="submit" id="submit" value="Enviar Mensaje"><br>
+			           <p class="m_msg">¿Estás seguro que has puesto un email correcto?</p>
 					</div>
 					<div class="clear"></div>
                  </form>
              </div>
              <div class="col-md-4 contact-top_right">
-			  <h3>contact info</h3>
-			  <p>diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.</p>
+			  <h3>Información de contacto</h3>
+			  <p>Si quiere contactar con nostros, también puede enviar un mensaje por correo electrónico o llamarnos al número que le proporcionamos a continuación.</p>
 			  <ul class="contact_info">
-			  	<li><i class="mobile"> </i><span>+1-900-235-2456</span></li>
-			  	<li><i class="message"> </i><span class="msg">info(at)gym.com</span></li>
+			  	<li><i class="mobile"> </i><span>665897651</span></li>
+			  	<li><i class="message"> </i><span class="msg">tuentrenador@dawpt.com</span></li>
 			  </ul>
 	 		 </div>
       	  </div>
         </div>
-         <div class="trainers_middle_bottom">
-		 	<div class="container">
-			  <div class="col-md-4">
-		       <div class="contact_hours">
-				 <ul class="times_contact">
-				 	<h3>Opening <span class="opening">Hours</span></h3>
-				 	<li><i class="calender"> </i><span class="contact_week">Monday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				 	<li><i class="calender"> </i><span class="contact_week">Tuesday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				 	<li><i class="calender"> </i><span class="contact_week">Wednesday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				 	<li><i class="calender"> </i><span class="contact_week">Thrusday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				 	<li><i class="calender"> </i><span class="contact_week">Friday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				 	<li><i class="calender"> </i><span class="contact_week">Saturday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				 	<li><i class="calender"> </i><span class="contact_week">Sunday</span><div class="hours1">h.6:00-h.24:00</div>  <div class="clear"></div></li>
-				    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
-				 	<h4>Enjoy it!</h4>
-				 </ul>
-		       </div>
-            </div>
-           <div class="col-md-4">
-     	 <h3 class="m_2">Next Events</h3>
-     	 <div class="events">
-     	 	<div class="event-top">
-	     	 	<ul class="event1">
-	     	 		<h4>26 April, 2014</h4>
-	     	 		<img src="images/pic.jpg" alt="">
-	     	 	</ul>
-	     	 	<ul class="event1_text">
-	     	 		<span class="m_5">h.12.00-h.13.00</span>
-	     	 		<h4>Aerobics</h4>
-	     	 		<p>Lorem ipsum dolor sit. </p>
-	     	 		<div class="btn2">
-					   <a href="#">Reservation</a>
-					</div>
-	     	 	</ul>
-     	 		<div class="clear"></div>
-     	 	</div>
-     	 	<div class="event-bottom">
-	     	 	<ul class="event1">
-	     	 		<h4>26 April, 2014</h4>
-	     	 		<img src="images/pic.jpg" alt="">
-	     	 	</ul>
-	     	 	<ul class="event1_text">
-	     	 		<span class="m_5">h.12.00-h.13.00</span>
-	     	 		<h4>Spinning</h4>
-	     	 		<p>Lorem ipsum dolor sit amet, consectetuer. </p>
-	     	 		<div class="btn2">
-					    <a href="#">Reservation</a>
-					</div>
-	     	 	</ul>
-     	 		<div class="clear"></div>
-     	 	</div>
-     	 </div>
-     </div>
-     <div class="col-md-4">
-     	 <h3 class="m_2">From the blog</h3>
-     	 <div class="blog_events">
-     	 	<ul class="tab-left1">
-				<span class="tab1-img"><img src="images/pic7.jpg" alt=""></span>
-				<div class="tab-text1">
-				 <p><a href="#">nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</a></p>
-				 <span class="m_date">25 April, 2014</span>
-				</div>
-				<div class="clear"></div>
-			</ul>
-			<ul class="tab-left1">
-				<span class="tab1-img"><img src="images/pic6.jpg" alt=""></span>
-				<div class="tab-text1">
-				 <p><a href="#">soluta nobis eleifend option congue nihil imperdiet doming id</a></p>
-				 <span class="m_date">25 April, 2014</span>
-				</div>
-				<div class="clear"></div>
-			</ul>
-			<ul class="tab-last1">
-				<span class="tab1-img"><img src="images/pic8.jpg" alt=""></span>
-				<div class="tab-text1">
-				 <p><a href="#">quod mazim placerat facer possim assum. Typi non habent</a></p>
-				 <span class="m_date">25 April, 2014</span>
-				</div>
-				<div class="clear"></div>
-			</ul>
-     	 </div>
-       </div>
-       <div class="clear"></div>
-     	<div class="contact_bottom">
-     	  <ul class="join_text">
-	     	  <h3>Why Join ? <span class="m_26"> eleifend option congue nihil</span></h3>
-	     	  <p>lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-	      </ul>
-     	  <ul class="btn_contact">
-			 <a href="#">Join Today</a>
-		  </ul>
-		  <div class="clear"></div>
-     	</div>
-     <div class="clear"></div>
-     </div>
-     </div>
+        
      <div class="about_gallery">
 		 	<div class="container">
 		 	  <div class="col-md-8">
@@ -269,51 +173,41 @@
 	       </div>
 		  </div>
     </div>
-     <div class="footer-top">
-		 	<ul class="twitter_footer">
-		 	 <li>
-		 	   <i class="twt_icon"> </i><p>aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel  <span class="m_6">2 days ago</span></p>
-		 	   <div class="clear"></div>
-		 	 </li>
-		 	</ul>
-		 </div>
 		 <div class="footer-bottom">
 		   <div class="container">
 		 	 <div class="row section group">
 				<div class="col-md-4">
-				   <h4 class="m_7">Newsletter Signup</h4>
-				   <p class="m_8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy.</p>
+				   <h4 class="m_7">Suscripción</h4>
+				   <p class="m_8">Suscríbete a DAW-PT y recibirás toda la información necesária.</p>
 				      <form class="subscribe">
 			             <input type="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
 					  </form>
 			          <div class="subscribe1">
-			            <a href="#">Submit Email<i class="but_arrow"> </i></a>
+			            <a href="#">Enviar<i class="but_arrow"> </i></a>
 			          </div>
 				</div>
 				<div class="col-md-4">
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
-					<p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</p>
-					<p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(00) 222 666 444</span></p>
-					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">info[at]mycompany.com</span></p>
+					<p class="m_9">Para más información acceda a la sección de <a href="#contact">contacto</a>, o contacte con nosotros por email o voz.</p>
+					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
+					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>
 				<div class="col-md-4">
 					<ul class="list">
 						<h4 class="m_7">Menu</h4>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Trainers</a></li>
-						<li><a href="#">Classes</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Información</a></li>
+						<li><a href="#">Publicar rutina i/o dieta</a></li>
+						<li><a href="#">Puntuar rutinas i/o dietas</a></li>
+						<li><a href="#">Contacto</a></li>
 					</ul>
 					<ul class="list1">
-						<h4 class="m_7">Community</h4>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Forum</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">Newsletter</a></li>
+						<h4 class="m_7">Consultar rutinas/dietas</h4>
+						<li><a href="#">Objetivos</a></li>
+						<li><a href="#">Recomendación</a></li>
+						
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -323,7 +217,7 @@
 		 <div class="copyright">
 		  <div class="container">
 		    <div class="copy">
-		        <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+		        <p>© 2014 Plantilla creada por <a href="#" target="_blank">Javier Ortega</a></p>
 		    </div>
 		    <div class="social">	
 			   <ul>	

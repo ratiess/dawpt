@@ -41,13 +41,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="index.html">Home</a></li>
-			   <li><a href="about.html">About</a></li>
-			   <li><a href="trainers.html">Trainers</a></li>
-			   <li><a href="classes.html">Classes</a></li>
-			   <li><a href="blog.html">Blog</a></li>
-			   <li><a href="pricing.html">Pricing</a></li>
-			   <li><a href="contact.html">Contact</a></li>
+			   <li class="active"><a href="index.blade.php">Inicio</a></li>
+			   <li><a href="about.blade.php">Información</a></li>
+			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="contact.blade.php">Contacto</a></li>
+                <li><a href="register.blade.php">Registro</a></li>
+               <li><a href="login.blade.php">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -60,34 +59,30 @@
           	<div class="container">
 						<form> 
 								<div class="register-top-grid">
-										<h3>PERSONAL INFORMATION</h3>
+										<h3>INFORMACIÓN PERSONAL</h3>
 										<div>
-											<span>First Name<label>*</label></span>
+											<span>Nombre<label>*</label></span>
 											<input type="text"> 
 										</div>
 										<div>
-											<span>Last Name<label>*</label></span>
+											<span>Apellidos<label>*</label></span>
 											<input type="text"> 
 										</div>
 										<div>
-											<span>Email Address<label>*</label></span>
+											<span>Correo electrónico<label>*</label></span>
 											<input type="text"> 
 										</div>
-										<div class="clear"> </div>
-											<a class="news-letter" href="#">
-												<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
-											</a>
 										<div class="clear"> </div>
 								</div>
 								<div class="clear"> </div>
 								<div class="register-bottom-grid">
-										<h3>LOGIN INFORMATION</h3>
+										<h3>INFORMACIÓN DEL LOGIN</h3>
 										<div>
-											<span>Password<label>*</label></span>
+											<span>Contraseña<label>*</label></span>
 											<input type="text">
 										</div>
 										<div>
-											<span>Confirm Password<label>*</label></span>
+											<span>Confirmar contraseña<label>*</label></span>
 											<input type="text">
 										</div>
 										<div class="clear"> </div>
@@ -98,43 +93,41 @@
 					</div>
 				</div>
          </div>
-         <div class="footer-bottom">
+          <div class="footer-bottom">
 		   <div class="container">
 		 	 <div class="row section group">
 				<div class="col-md-4">
-				   <h4 class="m_7">Newsletter Signup</h4>
-				   <p class="m_8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy.</p>
+				   <h4 class="m_7">Suscripción</h4>
+				   <p class="m_8">Suscríbete a DAW-PT y recibirás toda la información necesária.</p>
 				      <form class="subscribe">
 			             <input type="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
 					  </form>
 			          <div class="subscribe1">
-			            <a href="#">Submit Email<i class="but_arrow"> </i></a>
+			            <a href="#">Enviar<i class="but_arrow"> </i></a>
 			          </div>
 				</div>
 				<div class="col-md-4">
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
-					<p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</p>
-					<p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(00) 222 666 444</span></p>
-					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">info[at]mycompany.com</span></p>
+					<p class="m_9">Para más información acceda a la sección de <a href="#contact">contacto</a>, o contacte con nosotros por email o voz.</p>
+					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
+					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>
 				<div class="col-md-4">
 					<ul class="list">
 						<h4 class="m_7">Menu</h4>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Trainers</a></li>
-						<li><a href="#">Classes</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Información</a></li>
+						<li><a href="#">Publicar rutina i/o dieta</a></li>
+						<li><a href="#">Puntuar rutinas i/o dietas</a></li>
+						<li><a href="#">Contacto</a></li>
 					</ul>
 					<ul class="list1">
-						<h4 class="m_7">Community</h4>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Forum</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">Newsletter</a></li>
+						<h4 class="m_7">Consultar rutinas/dietas</h4>
+						<li><a href="#">Objetivos</a></li>
+						<li><a href="#">Recomendación</a></li>
+						
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -144,7 +137,7 @@
 		 <div class="copyright">
 		  <div class="container">
 		    <div class="copy">
-		        <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+		        <p>© 2014 Plantilla creada por <a href="#" target="_blank">Javier Ortega</a></p>
 		    </div>
 		    <div class="social">	
 			   <ul>	
@@ -159,6 +152,6 @@
 		    </div>
 		   <div class="clear"></div>
 		  </div>
-	   </div>
+	     </div>
 </body>
 </html>

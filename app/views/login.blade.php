@@ -41,13 +41,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="index.html">Home</a></li>
-			   <li><a href="about.html">About</a></li>
-			   <li><a href="trainers.html">Trainers</a></li>
-			   <li><a href="classes.html">Classes</a></li>
-			   <li><a href="blog.html">Blog</a></li>
-			   <li><a href="pricing.html">Pricing</a></li>
-			   <li><a href="contact.html">Contact</a></li>
+			   <li class="active"><a href="index.blade.php">Inicio</a></li>
+			   <li><a href="about.blade.php">Información</a></li>
+			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="contact.blade.php">Contacto</a></li>
+                <li><a href="register.blade.php">Registro</a></li>
+               <li><a href="login.blade.php">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -60,10 +59,10 @@
           	<div class="container">
 			  <div class="col-md-6">
 				 <div class="login-page">
-					<h4 class="title">New Customers</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
+					<h4 class="title">Nuevos Socios</h4>
+					<p>Si quieres disfrutar de todas las implementaciones que ofrece Daw-PT y aun no estás registrado no tardes y únete ahora mismo. Rellena el formulario y con un simple click ya estarás registrado en la red social de fitness del momento. Si quieres mejorar o conseguir los objetivos que siempre has deseado llevando tus resultados al máximo nivel no lo dudes, únete ahora y comienza a sacar el máximo rendimiento a tu cuerpo. </p>
 					<div class="button1">
-					   <a href="register.html"><input type="submit" name="Submit" value="Create an Account"></a>
+					   <a href="register.html"><input type="submit" name="Submit" value="Crear cuenta"></a>
 					 </div>
 					 <div class="clear"></div>
 				  </div>
@@ -71,7 +70,7 @@
 				<div class="col-md-6">
 				 <div class="login-page">
 				  <div class="login-title">
-	           		<h4 class="title">Registered Customers</h4>
+	           		<h4 class="title">Usuarios Registrados</h4>
 					<div id="loginbox" class="loginbox">
 						<form action="" method="post" name="login" id="login-form">
 						  <fieldset class="input">
@@ -80,12 +79,12 @@
 						      <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
 						    </p>
 						    <p id="login-form-password">
-						      <label for="modlgn_passwd">Password</label>
+						      <label for="modlgn_passwd">Contraseña</label>
 						      <input id="modlgn_passwd" type="password" name="password" class="inputbox" size="18" autocomplete="off">
 						    </p>
 						    <div class="remember">
 							    <p id="login-form-remember">
-							      <label for="modlgn_remember"><a href="#">Forget Your Password ? </a></label>
+							      <label for="modlgn_remember"><a href="#">Olvidó su contraseña? </a></label>
 							   </p>
 							    <input type="submit" name="Submit" class="button" value="Login"><div class="clear"></div>
 							 </div>
@@ -103,39 +102,37 @@
 		   <div class="container">
 		 	 <div class="row section group">
 				<div class="col-md-4">
-				   <h4 class="m_7">Newsletter Signup</h4>
-				   <p class="m_8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy.</p>
+				   <h4 class="m_7">Suscripción</h4>
+				   <p class="m_8">Suscríbete a DAW-PT y recibirás toda la información necesária.</p>
 				      <form class="subscribe">
 			             <input type="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
 					  </form>
 			          <div class="subscribe1">
-			            <a href="#">Submit Email<i class="but_arrow"> </i></a>
+			            <a href="#">Enviar<i class="but_arrow"> </i></a>
 			          </div>
 				</div>
 				<div class="col-md-4">
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
-					<p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</p>
-					<p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(00) 222 666 444</span></p>
-					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">info[at]mycompany.com</span></p>
+					<p class="m_9">Para más información acceda a la sección de <a href="#contact">contacto</a>, o contacte con nosotros por email o voz.</p>
+					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
+					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>
 				<div class="col-md-4">
 					<ul class="list">
 						<h4 class="m_7">Menu</h4>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Trainers</a></li>
-						<li><a href="#">Classes</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Información</a></li>
+						<li><a href="#">Publicar rutina i/o dieta</a></li>
+						<li><a href="#">Puntuar rutinas i/o dietas</a></li>
+						<li><a href="#">Contacto</a></li>
 					</ul>
 					<ul class="list1">
-						<h4 class="m_7">Community</h4>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Forum</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">Newsletter</a></li>
+						<h4 class="m_7">Consultar rutinas/dietas</h4>
+						<li><a href="#">Objetivos</a></li>
+						<li><a href="#">Recomendación</a></li>
+						
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -145,7 +142,7 @@
 		 <div class="copyright">
 		  <div class="container">
 		    <div class="copy">
-		        <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+		        <p>© 2014 Plantilla creada por <a href="#" target="_blank">Javier Ortega</a></p>
 		    </div>
 		    <div class="social">	
 			   <ul>	
@@ -160,6 +157,6 @@
 		    </div>
 		   <div class="clear"></div>
 		  </div>
-	   </div>
+	     </div>
 </body>
 </html>
