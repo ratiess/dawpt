@@ -34,9 +34,6 @@ body a{
 	color:#fff;
 	font-size:3.6em;
 	text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
 	text-transform:uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
 	margin:0;
@@ -45,9 +42,6 @@ body a{
 	color: #FFF;
 	font-size: 1.7em;
 	text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
 	text-transform: uppercase;
 	font-weight: 100;
 	margin: 10px 0 5px 0;
@@ -1980,7 +1974,7 @@ span.tab-img{
 	.class_leftrecomend{
 	width:54.5%;
 	float: left;
-	padding: 4%;
+	padding-top: 4%;
 	}
 	.class_leftrecomend h3{
 	color: #72D0F4;
@@ -1988,7 +1982,7 @@ span.tab-img{
 	text-transform:uppercase;
 	text-align:center;
 	font-weight:100;
-	margin: 0 0 5px;
+	margin: 0 0 5px;f
 	}
 	.class_leftrecomend p{
 	color: #72D0F4;
@@ -1999,6 +1993,29 @@ span.tab-img{
 	
 /* FINISH RECOMEND */
 
+/* 50 */
+	.class_cincuenta{
+	width:50%;
+	float: left;
+    padding-top: 4%;
+        padding-left: 10%;
+	}
+	.class_cincuenta h3{
+	color: #72D0F4;
+	font-size:1.3em;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:100;
+	margin: 0 0 5px;
+	}
+	.class_cincuenta p{
+	color: #72D0F4;
+	font-size:0.8125em;
+	line-height:1.5em;
+	margin-bottom: 8%;
+	}	
+	
+/* FINISH 50 */
 
 .class_right{
 	width:45.5%;
@@ -4307,3 +4324,100 @@ span.m_26 {
 input:-moz-placeholder { color:#72D0F4; padding-left: 2%; font-family: "TeXGyreAdventor";}
 
 /* FINISH RECOMEND */
+
+.consultarimc {width: 100%;}
+
+.resultadoimc {
+    padding-top: 5%;
+}
+
+
+#Hipertrofia, #Definicion, #PerdidaPeso{
+    width:100%;
+    float: left;
+    color: black;
+    font-size: 16px;
+    box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+#Hipertrofia {
+    background: url('../images/sergiconstance.jpg');
+    background-size: cover;
+}
+
+#Definicion {
+    background: url('../images/jeffseid.jpg');
+    background-size: cover;
+}
+
+#PerdidaPeso {
+    background: url('../images/sdavis.jpg');
+    background-size: cover;
+}
+
+.rutina, .dieta{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    background-color: rgba(255,255,255,0.5);
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
+.rutina:hover, .dieta:hover{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+#dietahipertrofia:hover{
+    background: url('../images/dietahipertrofia.jpg');
+    background-size: cover;
+}
+
+#dietadefinicion:hover{
+    background: url('../images/alimentos.jpg');
+    background-size: cover;
+}
+
+#dietaperderpeso:hover{
+    background: url('../images/dietaperderpeso.jpg');
+    background-size: cover;
+}
+
+#rutinahipertrofia:hover{
+    background: url('../images/rutinahipertrofia.jpg');
+    background-size: cover;
+}
+
+#rutinadefinicion:hover{
+    background: url('../images/pesas.jpg');
+    background-size: cover;
+}
+
+#rutinaperderpeso:hover{
+    background: url('../images/rutinaperderpeso.jpg');
+    background-size: cover;
+}
+
+.titulo{text-align: center; color: #fff;background-color:#72D0F4; margin:0; padding: 3% 0 3% 0;}
+.descripcion {padding: 0 5% 0 5%; font-size: 16px; color:#fff;}
+
+.titulo:hover {font-size: 16px;}
+
+.textohiper:hover:after{content:": Gana masa muscular."; font-size: 16px;}
+
+.textodef:hover:after{content:": Tonifación."; font-size: 16px;}
+
+.textoperder:hover:after{content:": Pierde peso."; font-size: 16px;}
