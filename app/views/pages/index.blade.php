@@ -73,12 +73,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="index.blade.php">Inicio</a></li>
-			   <li><a href="about.blade.php">Información</a></li>
+			   <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
 			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
-			   <li><a href="contact.blade.php">Contacto</a></li>
-                <li><a href="register.blade.php">Registro</a></li>
-               <li><a href="login.blade.php">Inicio Sesión</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -103,7 +103,7 @@
 		<div class="container">
 		    <div class="row content-middle">
 		      <!-- start content-middle -->
-	 	    	<div class="col-md-4"><a href="objectives.blade.php">
+	 	    	<div class="col-md-4"><a href="objetivos">
 	 	    		<ul class="spinning">
 	 	    			<li class="live"><span class="m_1">OBJETIVOS</span></li>
 	 	    			<div class="clear"></div>	
@@ -115,7 +115,7 @@
 			              </div>
 	                  </div>
 			     </a></div>
-				 <div class="col-md-4"><a href="recomend.blade.php">
+				 <div class="col-md-4"><a href="recomendados">
 	 	    		<ul class="spinning">
 	 	    			<li class="live"><span class="m_1">RECOMENDACIÓN</span></li>
 	 	    			<div class="clear"></div>	
@@ -127,7 +127,7 @@
 			              </div>
 	                  </div>
 			     </a></div>
-				 <div class="col-md-4"><a href="trainers.blade.php">
+				 <div class="col-md-4"><a href="publicarutina">
 	 	    		<ul class="spinning">
 	 	    			<li class="live"><span class="m_1">PUNTUAR RUTINAS/DIETAS</span></li>
 	 	    			<div class="clear"></div>	

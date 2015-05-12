@@ -41,12 +41,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="index.blade.php">Inicio</a></li>
-			   <li><a href="about.blade.php">Información</a></li>
+			   <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
 			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
-			   <li><a href="contact.blade.php">Contacto</a></li>
-                <li><a href="register.blade.php">Registro</a></li>
-               <li><a href="login.blade.php">Inicio Sesión</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -110,7 +110,7 @@
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
-					<p class="m_9">Para más información acceda a la sección de <a href="#contact">contacto</a>, o contacte con nosotros por email o voz.</p>
+					<p class="m_9">Para más información acceda a la sección de <a href="contacto">contacto</a>, o contacte con nosotros por email o voz.</p>
 					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
 					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>

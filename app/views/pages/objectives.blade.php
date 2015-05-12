@@ -48,18 +48,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li><a href="index.html">Home</a></li>
-			   <li><a href="about.html">About</a></li>
-			   <li><a href="trainers.html">Trainers</a></li>
-			   <li class="active"><a href="classes.html">Classes</a>
-			   	 <ul>
-					<li><a href="single_class.html">Cardio Fitness</a></li>
-					<li><a href="single_class.html">Pilates</a></li>
-					<li><a href="single_class.html">Aerobics</a></li>
-				 </ul></li>
-			   <li><a href="blog.html">Blog</a></li>
-			   <li><a href="pricing.html">Pricing</a></li>
-			   <li><a href="contact.html">Contact</a></li>
+			   <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
+			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -69,452 +63,91 @@
 	<div class="main">
        <div class="about_banner_img"><img src="images/class_img.jpg" class="img-responsive" alt=""/></div>
 		 <div class="about_banner_wrap">
-      	    <h1 class="m_11">Classes</h1>
+      	    <h1 class="m_11">OBJETIVOS</h1>
       	</div>
 		<div class="border"> </div> 
 		 <div class="container">
 		   <div class="classes_wrapper">
 		 	<div class="row class_box">
- 			  <div class="col-md-6">
-				<div class="class_left">
-					<a href="single_class.html"><img src="images/c7.jpg" class="img-responsive" alt=""/ title="continue"></a>
-				</div>
-				<div class="class_right">
-					<h3>Kik Boxing</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-					<div class="class_img">
-					  <img src="images/c2.jpg" alt=""/>
-					  <div class="class_desc">
-					  	<h4>Trainer</h4>
-					  	<h5>laoreet dolore</h5>
-					  	<p>iusto odio dignissim</p>
-					  </div>
-					    <div class="clear"></div>
-					     <ul class="buttons_class">
-					  	 <li class="btn5"><a href="#">Read More</a></li>	
-				         <li class="btn6"><a href="#">Timetable</a></li>	
-			            <div class="clear"></div>
-			         </ul>
-					</div>
-				</div>
-				<div class="clear"></div>
+ 			  <div class="col-md-4">
+                 <h3 class="titulo textohiper">Hipertrofia</h3>
+				<div id="Hipertrofia">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    <div id="rutinahipertrofia" class="rutina"><b>Rutina</b></div>
+                    <div id="dietahipertrofia" class="dieta"><b>Dieta</b></div>
+                </div>
 			  </div>	
-			   <div class="col-md-6">
-				<div class="class_left">
-					<a href="single_class.html"><img src="images/c1.jpg" class="img-responsive" alt=""/ title="continue"></a>
-				</div>
-				<div class="class_right1">
-					<h3>Spinning</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-					<div class="class_img">
-					  <img src="images/c8.jpg" alt=""/>
-					  <div class="class_desc1">
-					  	<h4>Trainer</h4>
-					  	<h5>laoreet dolore</h5>
-					  	<p>iusto odio dignissim</p>
-					  </div>
-					   <div class="clear"></div>
-					   <ul class="buttons_class">
-					  	 <li class="btn7"><a href="#">Read More</a></li>	
-				         <li class="btn8"><a href="#">Timetable</a></li>	
-			            <div class="clear"></div>
-			           </ul>
-					</div>
-				  </div>
+			   <div class="col-md-4">
+                   <h3 class="titulo textodef">Definición</h3>
+                    <div id="Definicion">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div id="rutinadefinicion" class="rutina"><b>Rutina</b></div>
+                        <div id="dietadefinicion" class="dieta"><b>Dieta</b></div>
+                   </div>
+			    </div>
+                <div class="col-md-4">
+                    <h3 class="titulo textoperder">Perder Peso</h3>
+                    <div id="PerdidaPeso">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div id="rutinaperderpeso" class="rutina"><b>Rutina</b></div>
+                        <div id="dietaperderpeso" class="dieta"><b>Dieta</b></div>
+                    </div>
 			    </div>
 			  <div class="clear"></div>
-			 </div>	
-			 <div class="row class_box">
- 			   <div class="col-md-6">
-				<div class="class_left">
-					<a href="single_class.html"><img src="images/c6.jpg" class="img-responsive" alt=""/ title="continue"></a>
-				</div>
-				<div class="class_right">
-					<h3>Crossfit</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-					<div class="class_img">
-					  <img src="images/c9.jpg" alt=""/>
-					  <div class="class_desc">
-					  	<h4>Trainer</h4>
-					  	<h5>laoreet dolore</h5>
-					  	<p>iusto odio dignissim</p>
-					  </div>
-					    <div class="clear"></div>
-					     <ul class="buttons_class">
-					  	 <li class="btn5"><a href="#">Read More</a></li>	
-				         <li class="btn6"><a href="#">Timetable</a></li>	
-			            <div class="clear"></div>
-			         </ul>
-					</div>
-				</div>
-				<div class="clear"></div>
-			  </div>	
-			   <div class="col-md-6">
-				<div class="class_left">
-					<a href="single_class.html"><img src="images/c5.jpg" class="img-responsive" alt=""/ title="continue"></a>
-				</div>
-				<div class="class_right1">
-					<h3>Aerobics</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-					<div class="class_img">
-					  <img src="images/c10.jpg" alt=""/>
-					  <div class="class_desc1">
-					  	<h4>Trainer</h4>
-					  	<h5>laoreet dolore</h5>
-					  	<p>iusto odio dignissim</p>
-					  </div>
-					   <div class="clear"></div>
-					   <ul class="buttons_class">
-					  	 <li class="btn7"><a href="#">Read More</a></li>	
-				         <li class="btn8"><a href="#">Timetable</a></li>	
-			            <div class="clear"></div>
-			           </ul>
-					</div>
-				 </div>
-			    </div>
-			   <div class="clear"></div>
-			 </div>	
-			 <div class="row class_box1">
- 			  <div class="col-md-6">
-				<div class="class_left">
-					<a href="single_class.html"><img src="images/c3.jpg"  class="img-responsive" alt=""/ title="continue"></a>
-				</div>
-				<div class="class_right">
-					<h3>Cardio Fitness</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-					<div class="class_img">
-					  <img src="images/c11.jpg" alt=""/>
-					  <div class="class_desc">
-					  	<h4>Trainer</h4>
-					  	<h5>laoreet dolore</h5>
-					  	<p>iusto odio dignissim</p>
-					  </div>
-					    <div class="clear"></div>
-					     <ul class="buttons_class">
-					  	 <li class="btn5"><a href="#">Read More</a></li>	
-				         <li class="btn6"><a href="#">Timetable</a></li>	
-			            <div class="clear"></div>
-			         </ul>
-					</div>
-				  </div>
-				<div class="clear"></div>
-			  </div>	
-			   <div class="col-md-6">
-				<div class="class_left">
-					<a href="single_class.html"><img src="images/c4.jpg" class="img-responsive"  alt=""/ title="continue"></a>
-				</div>
-				<div class="class_right1">
-					<h3>Yoga</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-					<div class="class_img">
-					  <img src="images/c12.jpg" alt=""/>
-					  <div class="class_desc1">
-					  	<h4>Trainer</h4>
-					  	<h5>laoreet dolore</h5>
-					  	<p>iusto odio dignissim</p>
-					  </div>
-					   <div class="clear"></div>
-					   <ul class="buttons_class">
-					  	 <li class="btn7"><a href="#">Read More</a></li>	
-				         <li class="btn8"><a href="#">Timetable</a></li>	
-			            <div class="clear"></div>
-			           </ul>
-					</div>
-				</div>
-			   </div>
-			   <div class="clear"></div>
-			 </div>	
-			<div class="clear"></div> 	   		
+			 </div>	   		
 		   </div>
-		   <div class="row classes_bottom">
-		      <div class="col-md-8">
-		     	 <h3 class="m_2">All Classes</h3>
-		     	 <div class="classes">
-		     	 	<div class="cardio_list">
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Cardio Fitness</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					     </div>
-			     	 	 <div class="clear"></div>
-		     	 	  </div>
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Spinning</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					    </div>
-			     	 	<div class="clear"></div>
-		     	 	  </div>
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Pilates</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					   </div>
-			     	   <div class="clear"></div>
-		     	 	  </div>
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Boxing</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					   </div>
-			     	 	<div class="clear"></div>
-		     	 	  </div>
-		     	 	</div>
-		     	 	<div class="cardio_list1">
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Aerobics</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					   </div>
-			     	 	<div class="clear"></div>
-		     	 	  </div>
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Kik Boxing</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					   </div>
-			     	 	<div class="clear"></div>
-		     	 	  </div>
-		     	 	  <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>CrossFit</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					   </div>
-			     	 	<div class="clear"></div>
-		     	 	  </div>
-		     	 	   <div class="cardio_sublist">
-			     	 	<ul class="cardio">
-			     	 		<li><i class="clock"> </i><span>Yoga</span></li>
-			     	 	</ul>
-			     	 	<div class="social-media">
-						     <ul>
-						        <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="timetable"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="Send to"><a href="#" target="_blank"> </a> </span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="like it"><a href="#" target="_blank"> </a></span></li>
-						        <li><span class="simptip-position-bottom simptip-movable" data-tooltip="share"><a href="#" target="_blank"> </a></span></li>
-						    </ul>
-					   </div>
-			     	 	<div class="clear"></div>
-		     	 	  </div>
-		     	 	</div>
-		     	 	<div class="clear"></div>
-		     	 </div>
-				</div>
-				<div class="col-md-4">
-				  <h3 class="m_4">Membership Prices</h3>
-				  <div class="members">
-				   <h4 class="m_3">25% Discount of for all members</h4>
-				   <p>Discount on services and <br>treatments at the GymBase for<br> all membership cards holders.</p>
-				   <div class="btn1">
-				    <a href="#">More</a>
-			       </div>
-				  </div>
-			    </div>
-			    <div class="clear"></div>
 			</div>
-			</div>
-			<div class="traine_login">
-	  	    <div class="row login_details">
-		 	  <div class="col-md-6">
-				  <div class="join">
-				  	 <h3>Why Join ?</h3>
-				  	 <h4>sed diam nonummy nibh euismod</h4>
-				  	 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br> nibh euismod tincidunt ut laoreet dolore magna . </p>	
-				  	 <div class="btn3">
-				       <a href="#">Join Today</a>
-			         </div>	
-				  </div>
-				</div>
-				 <div class="col-md-6">
-				  <div class="join-right">
-				  	 <h3>Why Join ?</h3>
-				  	 <h4>sed diam nonummy nibh euismod</h4>
-				  	 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br> nibh euismod tincidunt ut laoreet dolore magna . </p>	
-				  	 <div class="buttons_login">
-				  	 <div class="btn4">
-				       <a href="login.html">Log In</a>
-			         </div>	
-			         <div class="p-ww">
-					  <form>
-					   <input class="date" id="datepicker" type="text" value="View Calender" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'View Calender';}">
-					  </form>
-				     </div>
-			         <div class="clear"></div>
-			         <!---strat-date-piker---->
-				  <script src="js/jquery-ui.js"></script>
-				  <script>
-				  $(function() {
-				    $( "#datepicker" ).datepicker();
-				  });
-				  </script>
-				  </div>
-				  </div>
-				</div>
-				<div class="clear"></div>
-		   </div>
-	   </div>
-	   <div class="about_gallery">
-		   <div class="container">
-		 	  <div class="col-md-8">
-		     	 <h3 class="m_2">Gallery</h3>
-		     	 <div id="ca-container" class="ca-container">
-				    <div class="ca-wrapper">
-				         <div class="ca-item ca-item-1">
-						   <div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon1"> </div>
-							</div>
-						  </div>
-						<div class="ca-item ca-item-2">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon2"> </div>
-							</div>
-						</div>
-						<div class="ca-item ca-item-3">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon3"> </div>
-							</div>
-						</div>
-						<div class="ca-item ca-item-4">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon4"> </div>
-						     </div>
-						</div>
-						<div class="ca-item ca-item-5">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon5"> </div>
-							</div>
-						</div>
-						<div class="ca-item ca-item-6">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon6"> </div>
-							</div>
-						</div>
-						<div class="ca-item ca-item-7">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon7"> </div>
-							</div>
-						</div>
-						<div class="ca-item ca-item-8">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon"> </div>
-							</div>
-						</div>
-			    </div>
-			 </div>
-				    <script type="text/javascript">
-						$('#ca-container').contentcarousel();
-					</script>
-		    </div>
-		    <div class="col-md-4">
-		   	 <h3 class="m_2">Partner</h3>
-			  <ul class="partner">
-			  	<li><img src="images/p6.png" alt=""/></li>
-			  	<li><img src="images/p5.png" alt=""/></li>
-			  	<li><img src="images/p4.png" alt=""/></li>
-			  	<li><img src="images/p3.png" alt=""/></li>
-			  	<li><img src="images/p2.png" alt=""/></li>
-			  	<li><img src="images/p1.png" alt=""/></li>
-			  	 <div class="clear"></div>
-			  </ul>
-		    </div>
-	       <div class="clear"></div>
-	       </div>
-		 </div>
 		</div>
 		<div class="footer-bottom">
 		   <div class="container">
 		 	 <div class="row section group">
 				<div class="col-md-4">
-				   <h4 class="m_7">Newsletter Signup</h4>
-				   <p class="m_8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy.</p>
+				   <h4 class="m_7">Suscripción</h4>
+				   <p class="m_8">Suscríbete a DAW-PT y recibirás toda la información necesária.</p>
 				      <form class="subscribe">
 			             <input type="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
 					  </form>
 			          <div class="subscribe1">
-			            <a href="#">Submit Email<i class="but_arrow"> </i></a>
+			            <a href="#">Enviar<i class="but_arrow"> </i></a>
 			          </div>
 				</div>
 				<div class="col-md-4">
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
-					<p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</p>
-					<p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(00) 222 666 444</span></p>
-					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">info[at]mycompany.com</span></p>
+					<p class="m_9">Para más información acceda a la sección de <a href="#contact">contacto</a>, o contacte con nosotros por email o voz.</p>
+					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
+					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>
 				<div class="col-md-4">
 					<ul class="list">
 						<h4 class="m_7">Menu</h4>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Trainers</a></li>
-						<li><a href="#">Classes</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Información</a></li>
+						<li><a href="#">Publicar rutina i/o dieta</a></li>
+						<li><a href="#">Puntuar rutinas i/o dietas</a></li>
+						<li><a href="#">Contacto</a></li>
 					</ul>
 					<ul class="list1">
-						<h4 class="m_7">Community</h4>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Forum</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">Newsletter</a></li>
+						<h4 class="m_7">Consultar rutinas/dietas</h4>
+						<li><a href="#">Objetivos</a></li>
+						<li><a href="#">Recomendación</a></li>
+						
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -524,7 +157,7 @@
 		 <div class="copyright">
 		  <div class="container">
 		    <div class="copy">
-		        <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+		        <p>© 2014 Plantilla creada por <a href="#" target="_blank">Javier Ortega</a></p>
 		    </div>
 		    <div class="social">	
 			   <ul>	

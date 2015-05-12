@@ -4,6 +4,7 @@
 <title>DAW-PT</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/tablainfoimc.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -48,12 +49,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="index.blade.php">Inicio</a></li>
-			   <li><a href="about.blade.php">Información</a></li>
+			   <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
 			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
-			   <li><a href="contact.blade.php">Contacto</a></li>
-                <li><a href="register.blade.php">Registro</a></li>
-               <li><a href="login.blade.php">Inicio Sesión</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -95,16 +96,65 @@
                   <div class="class_leftrecomend">
 					<h3>Calcula tu IMC</h3>
                     <br />
+                    <div class="class_cincuenta">
 					<p class="infoimc">Rellene los campos y calcule su IMC.</p>
                     <div id="Altura" class="IMC"><input type="text" id="altura" name="altura" class="imc" placeholder="Altura"/><p> cm</p></div>
                       <br />
                     <div id="Peso" class="IMC"><input type="text" id="peso" name="peso" class="imc"  placeholder="Peso"/><p> kg</p></div>
-					<div class="class_img">
+					<div class="class_img consultarimc">
 					    <div class="clear"></div>
 					     <ul class="buttons_class">
-					  	 	<li class="btn5"><a href="#">Dieta Recomendada</a></li>				            <div class="clear"></div>
+					  	 	<li class="btn5"><a href="#">Consultar</a></li>				            <div class="clear"></div>
 			         </ul>
 					</div>
+                    </div>
+                     <div class="class_cincuenta">
+                     <div class="tablainfoimc" >
+                        <table >
+                            <tr>
+                                <td>
+                                    ÍNDICE MASA CORPORAL
+                                </td>
+                                <td >
+                                    CLASIFICACIÓN
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                   > 18.49
+                                </td>
+                                <td>
+                                   Infrapeso
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    18.50 - 24.99
+                                </td>
+                                <td>
+                                    Peso Normal
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                   25.00 - 29.99
+                                </td>
+                                <td>
+                                    Sobrepeso
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    30.00 <
+                                </td>
+                                <td>
+                                    Obeso
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                         <p class="resultadoimc"><b>Tu IMC es de ...</b></p>
+                    </div>
 				</div>
 			  </div>
 			 </div>

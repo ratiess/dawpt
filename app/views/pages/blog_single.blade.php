@@ -45,13 +45,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li><a href="index.html">Home</a></li>
-			   <li><a href="about.html">About</a></li>
-			   <li><a href="trainers.html">Trainers</a></li>
-			   <li><a href="classes.html">Classes</a></li>
-			   <li class="active"><a href="blog.html">Blog</a></li>
-			   <li><a href="pricing.html">Pricing</a></li>
-			   <li><a href="contact.html">Contact</a></li>
+			   <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
+			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->

@@ -54,12 +54,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-               <li class="active"><a href="index.blade.php">Inicio</a></li>
-			   <li><a href="about.blade.php">Información</a></li>
+               <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
 			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
-			   <li><a href="contact.blade.php">Contacto</a></li>
-                <li><a href="register.blade.php">Registro</a></li>
-               <li><a href="login.blade.php">Inicio Sesión</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -212,7 +212,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  	 <h4>Mejora tu físico</h4>
 				  	 <p>Si quieres mejorar tu físico y aprovecharte de la experiencia de otras personas en el mundo del fitness, no lo dudes y únete ahora.</p>	
 				  	 <div class="btn3">
-				       <a href="login.html">Únete</a>
+				       <a href="iniciosesion">Únete</a>
 			         </div>	
 				  </div>
 				</div>
@@ -223,7 +223,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  	 <p>Registrate e inicia sesión para disfrutar de todas las características de DAW-PT.</p>	
 				  	 <div class="buttons_login">
 				  	 <div class="btn4">
-				       <a href="login.html">Iniciar Sesión</a>
+				       <a href="iniciosesion">Iniciar Sesión</a>
 			         </div>	
 			         <div class="p-ww">
 					  <form>
