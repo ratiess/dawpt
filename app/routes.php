@@ -15,7 +15,7 @@ Route::get("/inicio", function()
 {
 	return View::make("pages.index");
 });
-/*
+
 Route::POST('index1','IndexController@index2');
 
 Route::get('/informacion', function()
@@ -59,4 +59,3 @@ Route::get('/registro', function()
 });
 
 Route::POST('register1','RegisterController@register2');
-*/
