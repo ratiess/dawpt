@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="ui.bootstrap.demo" ng-controller="maincontroller as crtl">
 <head>
 <title>DAW-PT</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -11,6 +11,9 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script> 
+<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+<script src="js/main.js"></script>
 <!-- grid-slider -->
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
@@ -19,7 +22,7 @@
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!---//calender-style---->	
 </head>
-<body class="recomend">
+<body class="recomend" >
     <!-- start header_bottom -->
     <div class="header-bottom">
 		 <div class="container">
@@ -98,13 +101,13 @@
                     <br />
                     <div class="class_cincuenta">
 					<p class="infoimc">Rellene los campos y calcule su IMC.</p>
-                    <div id="Altura" class="IMC"><input type="text" id="altura" name="altura" class="imc" placeholder="Altura"/><p> cm</p></div>
+                    <div id="Altura" class="IMC"><input type="text" id="altura" ng-model="altura" name="altura" class="imc" placeholder="Altura"/><p> cm</p></div>
                       <br />
-                    <div id="Peso" class="IMC"><input type="text" id="peso" name="peso" class="imc"  placeholder="Peso"/><p> kg</p></div>
+                    <div id="Peso" class="IMC"><input type="text" id="peso" ng-model="peso" name="peso" class="imc"  placeholder="Peso"/><p> kg</p></div>
 					<div class="class_img consultarimc">
 					    <div class="clear"></div>
 					     <ul class="buttons_class">
-					  	 	<li class="btn5"><a href="#">Consultar</a></li>				            <div class="clear"></div>
+					  	 	<li class="btn5" data-ng-click="crtl.calcularIMC()">Consultar</li>				            <div class="clear"></div>
 			         </ul>
 					</div>
                     </div>
@@ -145,7 +148,7 @@
                             </tr>
                             <tr>
                                 <td >
-                                    30.00 <
+                                    30.00 
                                 </td>
                                 <td>
                                     Obeso
@@ -153,7 +156,7 @@
                             </tr>
                         </table>
                     </div>
-                         <p class="resultadoimc"><b>Tu IMC es de ...</b></p>
+                         <p class="resultadoimc"><b>Tu IMC es de ... [[IMC]]</b></p>
                     </div>
 				</div>
 			  </div>

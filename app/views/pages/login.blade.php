@@ -10,8 +10,11 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script> 
+<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+<script src="js/main.js"></script>
 </head>
-<body>
+<body ng-app="ui.bootstrap.demo" ng-controller="maincontroller as crtl">
     <!-- start header_bottom -->
     <div class="header-bottom">
 		 <div class="container">
@@ -41,12 +44,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			  <li class="active"><a href="inicio">Inicio</a></li>
-			   <li><a href="informacion">Información</a></li>
+			   <li class="active"><a href="index.blade.php">Inicio</a></li>
+			   <li><a href="about.blade.php">Información</a></li>
 			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
-			   <li><a href="contacto">Contacto</a></li>
-                <li><a href="registro">Registro</a></li>
-               <li><a href="iniciosesion">Inicio Sesión</a></li>
+			   <li><a href="contact.blade.php">Contacto</a></li>
+                <li><a href="register.blade.php">Registro</a></li>
+               <li><a href="login.blade.php">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->
@@ -76,17 +79,18 @@
 						  <fieldset class="input">
 						    <p id="login-form-username">
 						      <label for="modlgn_username">Email</label>
-						      <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
+						      <input id="modlgn_username" type="text" ng-model="user" name="email" class="inputbox" size="18" autocomplete="off">
 						    </p>
 						    <p id="login-form-password">
 						      <label for="modlgn_passwd">Contraseña</label>
-						      <input id="modlgn_passwd" type="password" name="password" class="inputbox" size="18" autocomplete="off">
+						      <input id="modlgn_passwd" type="password" ng-model="passw" name="password" class="inputbox" size="18" autocomplete="off">
 						    </p>
 						    <div class="remember">
 							    <p id="login-form-remember">
 							      <label for="modlgn_remember"><a href="#">Olvidó su contraseña? </a></label>
 							   </p>
-							    <input type="submit" name="Submit" class="button" value="Login"><div class="clear"></div>
+							    <div id="btniLogin" data-ng-click="crtl.login()">Login </div>
+							    <div class="clear"></div>
 							 </div>
 						  </fieldset>
 						 </form>
