@@ -25,6 +25,13 @@ Route::get('/informacion', function()
 
 Route::POST('about1','AboutController@about2');
 
+Route::get('/publicar', function()
+{
+	return View::make('pages.publish');
+});
+
+Route::POST('publish1','PublishController@publish2');
+
 Route::get('/objetivos', function()
 {
 	return View::make('pages.objectives');

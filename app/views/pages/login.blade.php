@@ -44,12 +44,12 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="index.blade.php">Inicio</a></li>
-			   <li><a href="about.blade.php">Información</a></li>
-			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
-			   <li><a href="contact.blade.php">Contacto</a></li>
-                <li><a href="register.blade.php">Registro</a></li>
-               <li><a href="login.blade.php">Inicio Sesión</a></li>
+			   <li><a href="inicio">Inicio</a></li>
+			   <li><a href="informacion">Información</a></li>
+			   <li><a href="publicar">Publicar Rutina</a></li>
+			   <li><a href="contacto">Contacto</a></li>
+                <li><a href="registro">Registro</a></li>
+               <li class="active"><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->

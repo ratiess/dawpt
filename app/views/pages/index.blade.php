@@ -75,7 +75,7 @@
 			 <ul class="nav">
 			   <li class="active"><a href="inicio">Inicio</a></li>
 			   <li><a href="informacion">Información</a></li>
-			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="publicar">Publicar Rutina</a></li>
 			   <li><a href="contacto">Contacto</a></li>
                 <li><a href="registro">Registro</a></li>
                <li><a href="iniciosesion">Inicio Sesión</a></li>
