@@ -64,5 +64,7 @@ Route::get('/registro', function()
 {
 	return View::make('pages.register');
 });
-
 Route::POST('register1','RegisterController@register2');
+
+Route::get('selectejercicio', array('uses' => 'RatingController@rating2'));
+Route::POST('rating1','RatingController@rating2');
