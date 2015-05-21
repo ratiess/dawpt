@@ -10,6 +10,9 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script> 
+<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+<script src="js/main.js"></script>
 <!-- grid-slider -->
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
@@ -18,7 +21,7 @@
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!---//calender-style---->				  
 </head>
-<body>
+<body ng-app="ui.bootstrap.demo" ng-controller="maincontroller as crtl">
 <!-- start header_bottom -->
 	  <div class="header-bottom">
 		 <div class="container">
@@ -79,37 +82,17 @@
 				      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
 						<div class="facts">
 							<ul class="tab-left">
-								    Introduce el número de días que quieres asistir al gimnasio:
-        
-    <select id='dias'>
-            <option value='0'></option>
-            <option value='1'>1</option>
-            <option value='2'>2</option>
-            <option value='3'>3</option>
-            <option value='4'>4</option>
-            <option value='5'>5</option>
-            <option value='6'>6</option>
-            <option value='7'>7</option>
-        </select> <br />
-
-    Introduce el número máxima de ejercicios que quieres realizar por día:
-
-    <select id='ejercicios'>
-            <option value='0'></option>
-            <option value='1'>1</option>
-            <option value='2'>2</option>
-            <option value='3'>3</option>
-            <option value='4'>4</option>
-            <option value='5'>5</option>
-            <option value='6'>6</option>
-            <option value='7'>7</option>
-            <option value='8'>8</option>
-            <option value='9'>9</option>
-            <option value='10'>10</option>
-        </select> <br />
-
-    <input type='submit' id='Enviar' value='Crear Tabla' onClick='creartabla()'>
-			   </ul>	
+								Objetivo:
+							    <select type="select" class="form-control" ng-model="model_objetivo" ng-change="change(crtl.dias)" ng-options="c for c in objetivo"></select>
+						     	<br />
+								Introduce el número de días que quieres asistir al gimnasio:
+							    <select type="select" class="form-control" ng-model="dias" ng-change="change(crtl.dias)" ng-options="c for c in items"></select>
+						     	<br />
+    							Introduce el número máxima de ejercicios que quieres realizar por día:
+    							<select type="select" class="form-control" ng-model="ejercicios" ng-change="change2(ejercicios)" ng-options="c for c in items2"></select> <br />
+    							<input type='submit' id='Enviar' value='Crear Tabla' ng-click="crtl.createtable()">
+    							<br />
+			   				</ul>	
 			 </div>
 		    </div>	
 			<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-2">
@@ -526,6 +509,16 @@
 		    </div>
 		   <div class="clear"></div>
 		  </div>
+		  <table >
+		  	<tr ng-repeat="a in tdias track by $index">
+		  		<td ng-repeat="b in a track by $index">
+		  			<select type="select" class="form-control" ng-model="tdias2[$index][$parent.$index]" ng-options="c for c in Exfc"></select>
+		  			<select type="select" class="form-control" ng-model="tseries[$index][$parent.$index]" ng-options="c for c in txseries"></select>
+		  			<select type="select" class="form-control" ng-model="trepeticiones[$index][$parent.$index]" ng-options="c for c in txrepeticiones"></select>
+		  		</td>
+		  	</tr>
+		  </table>
+		  <div id="esp" style="width:50px;height:50px;background-color:red" ng-click="crtl.try()"/>
 	     </div>
 </body>
 </html>
