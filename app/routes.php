@@ -67,4 +67,9 @@ Route::get('/registro', function()
 Route::POST('register1','RegisterController@register2');
 
 Route::get('selectejercicio', array('uses' => 'RatingController@rating2'));
+
 Route::POST('rating1','RatingController@rating2');
+
+Route::get('insertrutina', array('uses' => 'InsertRutinasController@rating2'));
+
+Route::POST('rating1','InsertRutinasController@rating2');
