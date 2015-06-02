@@ -1,0 +1,6 @@
+[20-May-2015 15:48:33 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/s2q33/public_html/dawpt/app/controllers/RegistroController.php on line 64
+[20-May-2015 15:48:50 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/s2q33/public_html/dawpt/app/controllers/RegistroController.php on line 64
+[20-May-2015 16:49:19 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/s2q33/public_html/dawpt/app/controllers/RegistroController.php on line 64
+[28-May-2015 16:27:44 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s2q33/public_html/dawpt/app/controllers/RatingController.php on line 17
+[28-May-2015 18:16:48 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s2q33/public_html/dawpt/app/controllers/InsertRutinasController.php on line 16
+[28-May-2015 18:17:17 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s2q33/public_html/dawpt/app/controllers/InsertRutinasController.php on line 16

@@ -41,11 +41,11 @@
 		 <div class="h_menu4"><!-- start h_menu4 -->
 		   <a class="toggleMenu" href="#">Menu</a>
 			 <ul class="nav">
-			   <li class="active"><a href="inicio">Inicio</a></li>
+			   <li><a href="inicio">Inicio</a></li>
 			   <li><a href="informacion">Información</a></li>
-			   <li><a href="trainers.blade.php">Publicar Rutina</a></li>
+			   <li><a href="publicar">Publicar Rutina</a></li>
 			   <li><a href="contacto">Contacto</a></li>
-                <li><a href="registro">Registro</a></li>
+                <li class="active"><a href="registro">Registro</a></li>
                <li><a href="iniciosesion">Inicio Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
@@ -57,24 +57,20 @@
         <div class="main">
           <div class="register-grids">
           	<div class="container">
-						{{ Form::open(array('url' => '/register1')) }}						
+						<form> 
 								<div class="register-top-grid">
 										<h3>INFORMACIÓN PERSONAL</h3>
 										<div>
 											<span>Nombre<label>*</label></span>
-											<input id="nombre" name="nombre" type="text"> 
-										</div>
-										<div>
-											<span>Dni<label>*</label></span>
-											<input id="dni" name="dni" type="text" maxlength="9"> 
+											<input type="text"> 
 										</div>
 										<div>
 											<span>Apellidos<label>*</label></span>
-											<input id="apellidos" name="apellidos" type="text"> 
+											<input type="text"> 
 										</div>
 										<div>
 											<span>Correo electrónico<label>*</label></span>
-											<input id="email" name="email" type="text"> 
+											<input type="text" name=""> 
 										</div>
 										<div class="clear"> </div>
 								</div>
@@ -83,17 +79,17 @@
 										<h3>INFORMACIÓN DEL LOGIN</h3>
 										<div>
 											<span>Contraseña<label>*</label></span>
-											<input id="password" name="password" type="password">
+											<input type="text">
 										</div>
 										<div>
 											<span>Confirmar contraseña<label>*</label></span>
-											<input id="password-confirm" name="password-confirm" type="password">
+											<input type="text">
 										</div>
 										<div class="clear"> </div>
 								</div>
 								<div class="clear"> </div>
 								<input type="submit" value="submit">
-						{{ Form::close() }}
+						</form>
 					</div>
 				</div>
          </div>

@@ -10,21 +10,6 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-// Nos mostrará el formulario de login.
-Route::get('login', 'AuthController@showLogin');
-// Validamos los datos de inicio de sesión.
-Route::post('login', 'AuthController@postLogin');
-// Nos indica que las rutas que están dentro de él sólo serán mostradas si antes el usuario se ha autenticado.
-Route::group(array('before' => 'auth'), function()
-{
-	// Esta será nuestra ruta de bienvenida.
-	Route::get('', function()
-	{
-		return View::make("pages.index");
-	});
-	// Esta ruta nos servirá para cerrar sesión.
-	Route::get('logout', 'AuthController@logOut');
-});
 
 Route::get("/inicio", function()
 {
@@ -68,6 +53,7 @@ Route::get('/puntua', function()
 
 Route::POST('rating1','RatingController@rating2');
 
+
 Route::get('/contacto', function()
 {
 	return View::make('pages.contact');
@@ -89,19 +75,3 @@ Route::get('/registro', function()
 
 //Route::POST('register1','RegisterController@register2');
 Route::POST('register1','RegistroController@registrarse');
-
-Route::get('selectejercicio', array('uses' => 'RatingController@rating2'));
-
-Route::POST('rating1','RatingController@rating2');
-
-Route::get('selectalimentos', array('uses' => 'AlimentosController@rating2'));
-
-Route::POST('rating1','AlimentosController@rating2');
-
-Route::get('insertrutina', array('uses' => 'InsertRutinasController@rating2'));
-
-Route::POST('rating1','InsertRutinasController@rating2');
-
-Route::get('insertejrutina', array('uses' => 'InsertEjRutinaController@rating2'));
-
-Route::POST('rating1','InsertEjRutinaController@rating2');

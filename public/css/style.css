@@ -332,7 +332,7 @@ a:hover, a:focus {
 	}
 	.toggleMenu {
 		padding: 10px 15px;
-		width: 96%;
+		width: 100%;
 		text-align:center;
 	}
 	.nav li a {
@@ -357,12 +357,12 @@ a:hover, a:focus {
 }
 @media screen and (max-width: 640px) {
 	.toggleMenu {
-		width: 95%;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 480px) {
 	.toggleMenu {
-		width: 92%;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 320px) {
@@ -1974,7 +1974,7 @@ span.tab-img{
 	.class_leftrecomend{
 	width:54.5%;
 	float: left;
-	padding-top: 4%;
+	padding: 4%;
 	}
 	.class_leftrecomend h3{
 	color: #72D0F4;
@@ -4396,6 +4396,7 @@ input:-moz-placeholder { color:#72D0F4; padding-left: 2%; font-family: "TeXGyreA
     background-size: cover;
 }
 
+
 #rutinahipertrofia:hover{
     background: url('../images/rutinahipertrofia.jpg');
     background-size: cover;
@@ -4411,7 +4412,7 @@ input:-moz-placeholder { color:#72D0F4; padding-left: 2%; font-family: "TeXGyreA
     background-size: cover;
 }
 
-.titulo{text-align: center; color: #fff;background-color:#72D0F4; margin:0; padding: 3% 0 3% 0;}
+.titulo{text-align: center; color: #fff;background-color:#72D0F4; margin:0; padding: 3% 0 3% 0; width:100%; float: left;}
 .descripcion {padding: 0 5% 0 5%; font-size: 16px; color:#fff;}
 
 .titulo:hover {font-size: 16px;}
@@ -4421,3 +4422,41 @@ input:-moz-placeholder { color:#72D0F4; padding-left: 2%; font-family: "TeXGyreA
 .textodef:hover:after{content:": Tonifación."; font-size: 16px;}
 
 .textoperder:hover:after{content:": Pierde peso."; font-size: 16px;}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .class_cincuenta {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tablainfoimc{display: block;}
+    .recomend #showtable{display: block !important; text-align: center;}
+    .tablainfoimc{padding-top: 5%; display: none;}
+    #showtable{ 
+    background-color: #72D0F4; 
+    color: #fff; 
+    padding: 1% 5% 1% 5%;
+    border-color: 1px solid #fff !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
+
+/* PUBLICAR */ 
+
+.facts {background: #72D0F4; float: left; margin-bottom: 5%;}
+.namedatos {width: 100%; float: left; color: #fff; margin-bottom: 1%;}
+.selectdatos {width: 20%; float: left;}
+.cienpor {width: 100%; float: left; margin-bottom: 2%;}
+.Enviarpublish {width: 20%; background: #fff; color: #72D0F4; border-radius: 5px; text-align: center; cursor: pointer;} 
+.Enviarpublish:hover {background: #00BFF0; color: #fff;}
+.publicarutinatabla {overflow: auto; width: 500px; margin-bottom: 2% !important; float: left;}
+
+/* END PUBLICAR */
