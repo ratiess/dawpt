@@ -93,6 +93,7 @@
     							<input type='submit' id='Enviar' value='Crear Tabla' ng-click="crtl.createtable()">
     							<br />
 			   				</ul>	
+<<<<<<< HEAD
 						</div>
 						
 				<table >
@@ -106,6 +107,10 @@
 				</table>
 		  <div id="esp" style="width:50px;height:50px;background-color:red" ng-click="crtl.try(crtl.tejercicios,crtl.tseries,crtl.trepeticiones)"/>
 					</div>	
+=======
+			 </div>
+		    </div>	
+>>>>>>> origin/master
 			<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-2">
 			  <div class="facts">
 				<ul class="tab-left">
@@ -202,6 +207,16 @@
 		    </div>
 		   <div class="clear"></div>
 		  </div>
+		  <table >
+		  	<tr ng-repeat="a in tdias track by $index">
+		  		<td ng-repeat="b in a track by $index">
+		  			<select type="select" class="form-control" ng-model="tdias2[$index][$parent.$index]" ng-options="c for c in Exfc"></select>
+		  			<select type="select" class="form-control" ng-model="tseries[$index][$parent.$index]" ng-options="c for c in txseries"></select>
+		  			<select type="select" class="form-control" ng-model="trepeticiones[$index][$parent.$index]" ng-options="c for c in txrepeticiones"></select>
+		  		</td>
+		  	</tr>
+		  </table>
+		  <div id="esp" style="width:50px;height:50px;background-color:red" ng-click="crtl.try()"/>
 	     </div>
 </body>
 </html>

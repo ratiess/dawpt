@@ -86,14 +86,19 @@ Route::get('/registro', function()
 {
 	return View::make('pages.register');
 });
+<<<<<<< HEAD
 
 //Route::POST('register1','RegisterController@register2');
 Route::POST('register1','RegistroController@registrarse');
+=======
+Route::POST('register1','RegisterController@register2');
+>>>>>>> origin/master
 
 Route::get('selectejercicio', array('uses' => 'RatingController@rating2'));
 
 Route::POST('rating1','RatingController@rating2');
 
+<<<<<<< HEAD
 Route::get('selectalimentos', array('uses' => 'AlimentosController@rating2'));
 
 Route::POST('rating1','AlimentosController@rating2');
@@ -105,3 +110,8 @@ Route::POST('rating1','InsertRutinasController@rating2');
 Route::get('insertejrutina', array('uses' => 'InsertEjRutinaController@rating2'));
 
 Route::POST('rating1','InsertEjRutinaController@rating2');
+=======
+Route::get('insertrutina', array('uses' => 'InsertRutinasController@rating2'));
+
+Route::POST('rating1','InsertRutinasController@rating2');
+>>>>>>> origin/master

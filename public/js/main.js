@@ -6,6 +6,20 @@ angular.module('ui.bootstrap.demo').config(function ($interpolateProvider) {
 angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http',function ($scope, $http, $log) {
 
 	$scope.url="http://s2q33.sdslab.cat/dawpt/public/";
+<<<<<<< HEAD
+=======
+
+	this.login = function(){
+		console.log($scope.user);
+		console.log($scope.passw);
+		//$http.get(/*ruta_login+$scope.user+$scope.passw*/)
+	           // .success(function(response) {$scope.loginid = response; console.log($scope.loginid); });
+	}
+	this.register = function(){
+		$http.get(/*ruta_register+$scope.user+$scope.passw*/)
+	            .success(function(response) {$scope.loginid = response; console.log($scope.loginid); });
+	}	
+>>>>>>> origin/master
 
 	this.calcularIMC = function(){
 		var alt = $scope.altura/100;
@@ -28,6 +42,12 @@ angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http
   	$scope.items2 = [
     	'1','2','3','4','5','6','7','8','9','10'
   	];
+<<<<<<< HEAD
+=======
+  	/*$scope.Exfc = [
+  		'brazos','piernas', 'torso', 'javi gay', 'quesada maricon'
+  	]*/
+>>>>>>> origin/master
   	$scope.txseries = [
   		'1','2','3','4','5','6','7'
   	]
@@ -41,7 +61,11 @@ angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http
 	    $scope.status.isopen = !$scope.status.isopen;
 	};
 
+<<<<<<< HEAD
 	$scope.tdias = [ ['a1','a2'], ['b1','b2'] ];
+=======
+	$scope.tdias = [ ['a1','a2'], ['b1','b2'], ['c1','c2']];
+>>>>>>> origin/master
 
 	this.createtable=function(){
 		var filas = $scope.dias;
@@ -59,6 +83,7 @@ angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http
 		$scope.tdias=tabla;
 	}
 
+<<<<<<< HEAD
 	this.try=function(tejercicios, tseries, trepeticiones){
 		$http.get($scope.url+"insertrutina?descripcion=aaa&clase=bbb&usuarios_id=2").success(function(response) {
 				var idrutina= response;
@@ -78,6 +103,15 @@ angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http
 		});
 	}
 //===================== SELECT TODOS LOS EJERCICIOS + PONERLOS EN EL DROPDOWN LIST ========
+=======
+	$scope.tdias2 = $scope.tdias;
+
+	this.try=function(){
+		console.log($scope.tdias2);
+		console.log($scope.tseries);
+		console.log($scope.trepeticiones);
+	}
+>>>>>>> origin/master
 
 	this.xfc = [{label: ' ', id: 0}];
 	this.selected = this.xfc[0];
@@ -88,16 +122,24 @@ angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http
 				console.log(response); 
 				for (i=0; i<response.length;i++){
 					xfc.push(response[i]);
+<<<<<<< HEAD
 					
 				}
 				$scope.mainejercicios=xfc;
 				this.selected = xfc[0];
 				//console.log(xfc);
 				//console.log($scope.mainejercicios) 	
+=======
+	 				console.log(response[i]);
+				}
+				
+				this.selected = xfc[0]; 	
+>>>>>>> origin/master
 			});
 		};
 	$scope.Exfc(this.xfc);
 
+<<<<<<< HEAD
 //=========================================================================================	
 //===================== SELECT TODOS LOS ALIMENTOS + PONERLOS EN EL DROPDOWN LIST =========
 
@@ -118,5 +160,7 @@ angular.module('ui.bootstrap.demo').controller('maincontroller',['$scope','$http
 	$scope.axli(this.ali);*/
 
 //=========================================================================================	
+=======
+>>>>>>> origin/master
 
 }]);

@@ -56,8 +56,13 @@ return array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 's2q33_daw-pt',
+<<<<<<< HEAD
 			'username'  => 'albert',
 			'password'  => '12345aA',
+=======
+			'username'  => 'root',
+			'password'  => '',
+>>>>>>> origin/master
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
