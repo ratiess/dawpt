@@ -10,6 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Free Gym Website Template | About :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/mobile.css" rel="stylesheet" type='text/css' media="(max-width: 500px)" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -24,7 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!---//calender-style---->				  
 </head>
-<body>
+<body class="aboutinfo">
 <!-- start header_bottom -->
 	  <div class="header-bottom">
 		 <div class="container">
@@ -90,8 +91,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	     <div class="container">
 	       <div class="about_trainer">
 		      <h3 class="m_2">Información</h3>
-		      <div class="row about_box">
-		      	<div class="col-md-4">
+		    <!--  <div class="row about_box"> -->
+		      	<div class="col-md-4 infomobile">
 				  <div class="box1">
 				  	<div class="box1_left">
  					  <img src="images/about_img3.jpg" class="img-responsive" alt=""/>				  		
@@ -112,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <div class="clear"></div>
 				  </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 infomobile">
 				  <div class="box2">
 				  	<div class="box1_left">
  					  <img src="images/about_img2.jpg" class="img-responsive" alt=""/>				  		
@@ -129,7 +130,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <div class="clear"></div>
 				  </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 infomobile">
 				  <div class="box1">
 				  	<div class="box1_left">
  					  <img src="images/about_img4.jpg" class="img-responsive" alt=""/>				  		
@@ -146,10 +147,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <div class="clear"></div>
 				  </div>
 				</div>
-				<div class="clear"></div>
-		     </div>
-		     <div class="row about_box1">
-		      <div class="col-md-4">
+				<!-- <div class="clear"></div>
+		    </div>
+		     <div class="row about_box1"> -->
+		      <div class="col-md-4 infomobile">
 				  <div class="box2">
 				  	<div class="box1_left">
  					  <img src="images/about_img5.jpg" class="img-responsive" alt=""/>				  		
@@ -166,7 +167,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <div class="clear"></div>
 				  </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 infomobile sesionmobile">
 				 <div class="box1">
 				  	<div class="box1_left">
  					  <img src="images/about_img7.jpg" class="img-responsive" alt=""/>				  		
@@ -183,7 +184,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <div class="clear"></div>
 				  </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 infomobile contactmobile">
 				  <div class="box2">
 				  	<div class="box1_left">
  					  <img src="images/about_img6.jpg" class="img-responsive" alt=""/>				  		
@@ -201,7 +202,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  </div>
 				</div>
 				<div class="clear"></div>
-		     </div>
+		     <!--</div>-->
 		   </div>
 	    </div>
 	    <div class="login">
@@ -216,7 +217,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			         </div>	
 				  </div>
 				</div>
-				 <div class="col-md-6">
+				 <div class="col-md-6 iniciosesionmobile">
 				  <div class="join-right">
 				  	 <h3>Inicia Sesión</h3>
 				  	 <h4>No pierdas el tiempo y empieza a lo grande</h4>
@@ -225,11 +226,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  	 <div class="btn4">
 				       <a href="iniciosesion">Iniciar Sesión</a>
 			         </div>	
-			         <div class="p-ww">
+			         <!--<div class="p-ww">
 					  <form>
 					   <input class="date" id="datepicker" type="text" value="Ver Calendario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'View Calender';}">
 					  </form>
-				     </div>
+				     </div>-->
 			         <div class="clear"></div>
 			         <!---strat-date-piker---->
 				  <script src="js/jquery-ui.js"></script>
@@ -251,7 +252,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 		<p class="ceo"><span class="ceo1">Arnold Schwarzenegger</span></p>
 		 	</div>
 	   </div>
-	   <div class="about_gallery">
+	   <div class="about_gallery galeriamobile">
 		 	<div class="container">
 		 	  <div class="col-md-8">
 		     	 <h3 class="m_2">Galería</h3>
@@ -311,7 +312,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				$('#ca-container').contentcarousel();
 			</script>
 		   </div>
-		   <div class="col-md-4">
+		   <div class="col-md-4 patrocinadoresmobile">
 		   	 <h3 class="m_2">Patrocinadores</h3>
 			  <ul class="partner">
 			  	<li><img src="images/p6.png" alt=""/></li>
@@ -327,10 +328,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	       </div>
 		  </div>
 		 </div>
-		  <div class="footer-bottom">
+		   <div class="header-bottom">
+		 <div class="container">
+			<div class="header-bottom_left">
+				<i class="phone"> </i><span>1-200-346-2986</span>
+			</div>
+			<div class="social">	
+			   <ul>	
+				  <li class="facebook"><a href="#"><span> </span></a></li>
+				  <li class="twitter"><a href="#"><span> </span></a></li>
+				  <li class="pinterest"><a href="#"><span> </span></a></li>	
+				  <li class="google"><a href="#"><span> </span></a></li>
+				  <li class="tumblr"><a href="#"><span> </span></a></li>
+				  <li class="instagram"><a href="#"><span> </span></a></li>	
+				  <li class="rss"><a href="#"><span> </span></a></li>							
+			   </ul>
+		   </div>
+		   <div class="clear"></div>
+		</div>
+	  </div>
+		 <div class="footer-bottom">
 		   <div class="container">
 		 	 <div class="row section group">
-				<div class="col-md-4">
+				<div class="col-md-4 FootSusc">
 				   <h4 class="m_7">Suscripción</h4>
 				   <p class="m_8">Suscríbete a DAW-PT y recibirás toda la información necesária.</p>
 				      <form class="subscribe">
@@ -340,7 +360,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			            <a href="#">Enviar<i class="but_arrow"> </i></a>
 			          </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 FootInfo">
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
@@ -348,7 +368,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
 					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 FootMenu">
 					<ul class="list">
 						<h4 class="m_7">Menu</h4>
 						<li><a href="#">Inicio</a></li>
@@ -372,17 +392,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		  <div class="container">
 		    <div class="copy">
 		        <p>© 2014 Plantilla creada por <a href="#" target="_blank">Javier Ortega</a></p>
-		    </div>
-		    <div class="social">	
-			   <ul>	
-				  <li class="facebook"><a href="#"><span> </span></a></li>
-				  <li class="twitter"><a href="#"><span> </span></a></li>
-				  <li class="pinterest"><a href="#"><span> </span></a></li>	
-				  <li class="google"><a href="#"><span> </span></a></li>
-				  <li class="tumblr"><a href="#"><span> </span></a></li>
-				  <li class="instagram"><a href="#"><span> </span></a></li>	
-				  <li class="rss"><a href="#"><span> </span></a></li>							
-			   </ul>
 		    </div>
 		   <div class="clear"></div>
 		  </div>

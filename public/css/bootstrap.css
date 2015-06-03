@@ -313,7 +313,8 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+    /*max-width: 100%;*/
+  width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -5783,3 +5784,5 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.tablePR .form-control {width: 33% !important; float: left !important;}

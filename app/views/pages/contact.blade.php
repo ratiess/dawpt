@@ -4,6 +4,7 @@
 <title>Free Gym Website Template | Contact :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/mobile.css" rel="stylesheet" type='text/css' media="(max-width: 500px)" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -16,27 +17,7 @@
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <!-- //grid-slider -->
 </head>
-<body>
-    <!-- start header_bottom -->
-    <div class="header-bottom">
-		 <div class="container">
-			<div class="header-bottom_left">
-				<i class="phone"> </i><span>1-200-346-2986</span>
-			</div>
-			<div class="social">	
-			   <ul>	
-				  <li class="facebook"><a href="#"><span> </span></a></li>
-				  <li class="twitter"><a href="#"><span> </span></a></li>
-				  <li class="pinterest"><a href="#"><span> </span></a></li>	
-				  <li class="google"><a href="#"><span> </span></a></li>
-				  <li class="tumblr"><a href="#"><span> </span></a></li>
-				  <li class="instagram"><a href="#"><span> </span></a></li>	
-				  <li class="rss"><a href="#"><span> </span></a></li>							
-			   </ul>
-		   </div>
-		   <div class="clear"></div>
-		</div>
-    </div>
+<body class="contact">
     <!-- start menu -->
     <div class="menu">
 	  <div class="container">
@@ -60,7 +41,7 @@
 	</div>
 	<!-- end menu -->
     <div class="main">
-       <iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2&amp;output=embed"> </iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=United+Kingdom&amp;aq=0&amp;oq=un&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=55.378051,-3.435973&amp;spn=135.795411,68.554687&amp;t=m&amp;z=2" style="color:#666;font-size:12px;text-align:left"> </a></small>
+       <img class="imgcontact" src="images/running.jpg" style="width: 100%; height: 200px;" />
         <div class="about_banner_wrap">
       	   <h1 class="m_11">Contacto</h1>
       	</div>
@@ -72,8 +53,8 @@
 			  <p class="contact_msg">Si tienes alguna duda, no dudes y contacto con nosotros.</p>
 			     <form method="post" action="contact-post.html">
 					<div class="to">
-                     	<input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-					 	<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left:20px">
+                     	<input type="text" class="text name" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 	<input type="text" class="text email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left:20px">
 					 	<input type="text" class="text" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left:20px">
 					</div>
 					<div class="text">
@@ -86,7 +67,7 @@
 					<div class="clear"></div>
                  </form>
              </div>
-             <div class="col-md-4 contact-top_right">
+             <div class="col-md-4 contact-top_right infocontact">
 			  <h3>Información de contacto</h3>
 			  <p>Si quiere contactar con nostros, también puede enviar un mensaje por correo electrónico o llamarnos al número que le proporcionamos a continuación.</p>
 			  <ul class="contact_info">
@@ -97,7 +78,7 @@
       	  </div>
         </div>
         
-     <div class="about_gallery">
+     <div class="about_gallery galeriamobile">
 		 	<div class="container">
 		 	  <div class="col-md-8">
 		     	 <h3 class="m_2">Gallery</h3>
@@ -157,7 +138,7 @@
 						$('#ca-container').contentcarousel();
 					</script>
 		   </div>
-		   <div class="col-md-4">
+		   <div class="col-md-4 patrocinadoresmobile">
 		   	 <h3 class="m_2">Partner</h3>
 			  <ul class="partner">
 			  	<li><img src="images/p6.png" alt=""/></li>
@@ -173,10 +154,29 @@
 	       </div>
 		  </div>
     </div>
+		<div class="header-bottom">
+		 <div class="container">
+			<div class="header-bottom_left">
+				<i class="phone"> </i><span>1-200-346-2986</span>
+			</div>
+			<div class="social">	
+			   <ul>	
+				  <li class="facebook"><a href="#"><span> </span></a></li>
+				  <li class="twitter"><a href="#"><span> </span></a></li>
+				  <li class="pinterest"><a href="#"><span> </span></a></li>	
+				  <li class="google"><a href="#"><span> </span></a></li>
+				  <li class="tumblr"><a href="#"><span> </span></a></li>
+				  <li class="instagram"><a href="#"><span> </span></a></li>	
+				  <li class="rss"><a href="#"><span> </span></a></li>							
+			   </ul>
+		   </div>
+		   <div class="clear"></div>
+		</div>
+	  </div>
 		 <div class="footer-bottom">
 		   <div class="container">
 		 	 <div class="row section group">
-				<div class="col-md-4">
+				<div class="col-md-4 FootSusc">
 				   <h4 class="m_7">Suscripción</h4>
 				   <p class="m_8">Suscríbete a DAW-PT y recibirás toda la información necesária.</p>
 				      <form class="subscribe">
@@ -186,7 +186,7 @@
 			            <a href="#">Enviar<i class="but_arrow"> </i></a>
 			          </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 FootInfo">
 					<div class="f-logo">
 						<img src="images/logo.png" alt=""/>
 					</div>
@@ -194,7 +194,7 @@
 					<p class="address">Teléfono móvil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">665897651</span></p>
 					<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">tuentrenador@dawpt.com</span></p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 FootMenu">
 					<ul class="list">
 						<h4 class="m_7">Menu</h4>
 						<li><a href="#">Inicio</a></li>
@@ -218,17 +218,6 @@
 		  <div class="container">
 		    <div class="copy">
 		        <p>© 2014 Plantilla creada por <a href="#" target="_blank">Javier Ortega</a></p>
-		    </div>
-		    <div class="social">	
-			   <ul>	
-				  <li class="facebook"><a href="#"><span> </span></a></li>
-				  <li class="twitter"><a href="#"><span> </span></a></li>
-				  <li class="pinterest"><a href="#"><span> </span></a></li>	
-				  <li class="google"><a href="#"><span> </span></a></li>
-				  <li class="tumblr"><a href="#"><span> </span></a></li>
-				  <li class="instagram"><a href="#"><span> </span></a></li>	
-				  <li class="rss"><a href="#"><span> </span></a></li>							
-			   </ul>
 		    </div>
 		   <div class="clear"></div>
 		  </div>

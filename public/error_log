@@ -1,0 +1,17 @@
+[20-May-2015 15:48:33 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/s2q33/public_html/dawpt/app/controllers/RegistroController.php on line 64
+[20-May-2015 15:48:50 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/s2q33/public_html/dawpt/app/controllers/RegistroController.php on line 64
+[20-May-2015 16:49:19 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/s2q33/public_html/dawpt/app/controllers/RegistroController.php on line 64
+[28-May-2015 16:27:44 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s2q33/public_html/dawpt/app/controllers/RatingController.php on line 17
+[28-May-2015 18:16:48 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s2q33/public_html/dawpt/app/controllers/InsertRutinasController.php on line 16
+[28-May-2015 18:17:17 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/s2q33/public_html/dawpt/app/controllers/InsertRutinasController.php on line 16
+[02-Jun-2015 15:14:46 UTC] PHP Fatal error:  Cannot use [] for reading in /home/s2q33/public_html/dawpt/app/controllers/SelectAsObjectiveController.php on line 8
+[02-Jun-2015 17:47:20 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 37
+[02-Jun-2015 17:47:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 38
+[02-Jun-2015 17:52:40 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 31
+[02-Jun-2015 17:53:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 37
+[02-Jun-2015 18:03:01 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 43
+[02-Jun-2015 18:17:39 UTC] PHP Fatal error:  Can't use function return value in write context in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 30
+[02-Jun-2015 18:19:47 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 27
+[02-Jun-2015 18:21:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/s2q33/public_html/dawpt/app/controllers/AuthController.php on line 30
+[03-Jun-2015 14:01:22 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in /home/s2q33/public_html/dawpt/app/controllers/SelectAsObjectiveController.php on line 16
+[03-Jun-2015 14:08:47 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/s2q33/public_html/dawpt/app/controllers/SelectAsObjectiveController.php on line 9
