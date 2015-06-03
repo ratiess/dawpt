@@ -4457,6 +4457,7 @@ input:-moz-placeholder { color:#72D0F4; padding-left: 2%; font-family: "TeXGyreA
 .cienpor {width: 100%; float: left; margin-bottom: 2%;}
 .Enviarpublish {width: 20%; background: #fff; color: #72D0F4; border-radius: 5px; text-align: center; cursor: pointer;} 
 .Enviarpublish:hover {background: #00BFF0; color: #fff;}
+<<<<<<< HEAD
 .scrollpublishtable {width: 100%; overflow-x: auto; margin-bottom: 2%;}
 .SelectStyle {position: relative;}
 
@@ -4475,5 +4476,8 @@ select {
  
 option {padding: 10px;}
 
+=======
+.publicarutinatabla {overflow: auto; width: 500px; margin-bottom: 2% !important; float: left;}
+>>>>>>> origin/master
 
 /* END PUBLICAR */

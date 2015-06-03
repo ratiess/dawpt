@@ -3,9 +3,13 @@
 <head>
 <title>Free Gym Website Template | Trainers :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<<<<<<< HEAD
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/mobile.css" rel="stylesheet" type='text/css' media="(max-width: 500px)" />
 <link href="css/publicarutinatabla.css" rel='stylesheet' type='text/css' />
+=======
+<!--<link href="css/style.css" rel='stylesheet' type='text/css' />-->
+>>>>>>> origin/master
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -23,7 +27,11 @@
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!---//calender-style---->				  
 </head>
+<<<<<<< HEAD
 <body style="publicar" ng-app="ui.bootstrap.demo" ng-controller="maincontroller as crtl">
+=======
+<body ng-app="ui.bootstrap.demo" ng-controller="maincontroller as crtl">
+>>>>>>> origin/master
 <!-- start header_bottom -->
 	  <div class="header-bottom">
 		 <div class="container">
@@ -84,6 +92,7 @@
 				      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
 						<div class="facts" style="width: 100%;">
 							<ul class="tab-left">
+<<<<<<< HEAD
 								<div class="namedatos">Objetivo:</div>
 							    <div class="cienpor"><select type="select" class="form-control selectdatos" ng-model="model_objetivo" ng-change="change(crtl.dias)" ng-options="c for c in objetivo"></select></div>
 								<div class="namedatos">Introduce el número de días que quieres asistir al gimnasio:</div>
@@ -107,6 +116,37 @@
 		  <div class="cienpor"><div id="esp" class="Enviarpublish" ng-click="crtl.try(crtl.tejercicios,crtl.tseries,crtl.trepeticiones)">Enviar</div></div></div>
 		  				</div>
 					</div>	
+=======
+								Objetivo:
+							    <select type="select" class="form-control" ng-model="model_objetivo" ng-change="change(crtl.dias)" ng-options="c for c in objetivo"></select>
+						     	<br />
+								Introduce el número de días que quieres asistir al gimnasio:
+							    <select type="select" class="form-control" ng-model="dias" ng-change="change(crtl.dias)" ng-options="c for c in items"></select>
+						     	<br />
+    							Introduce el número máxima de ejercicios que quieres realizar por día:
+    							<select type="select" class="form-control" ng-model="ejercicios" ng-change="change2(ejercicios)" ng-options="c for c in items2"></select> <br />
+    							<input type='submit' id='Enviar' value='Crear Tabla' ng-click="crtl.createtable()">
+    							<br />
+			   				</ul>	
+<<<<<<< HEAD
+						</div>
+						
+				<table >
+					<tr ng-repeat="a in tdias track by $index">
+						<td ng-repeat="b in a track by $index"> 
+							<select type="select" class="form-control"  ng-model="crtl.tejercicios[$index][$parent.$index]" ng-options="c.label for c in crtl.xfc"></select>
+							<select type="select" class="form-control"  ng-model="crtl.tseries[$index][$parent.$index]" ng-options="c for c in txseries"></select>
+							<select type="select" class="form-control"  ng-model="crtl.trepeticiones[$index][$parent.$index]" ng-options="c for c in txrepeticiones"></select>
+						</td>
+					</tr>
+				</table>
+		  <div id="esp" style="width:50px;height:50px;background-color:red" ng-click="crtl.try(crtl.tejercicios,crtl.tseries,crtl.trepeticiones)"/>
+					</div>	
+=======
+			 </div>
+		    </div>	
+>>>>>>> origin/master
+>>>>>>> origin/master
 			<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-2">
 			  <div class="facts">
 				<ul class="tab-left">
@@ -146,6 +186,7 @@
 			   </script>
       </div>
       </div>
+<<<<<<< HEAD
       <div class="header-bottom">
 		 <div class="container">
 			<div class="header-bottom_left">
@@ -203,6 +244,12 @@
 					</ul>
 				</div>
 				<div class="clear"></div>
+=======
+      <div class="footer-bottom">
+		   <div class="container">
+		 	 <div class="row section group">
+				<!-- Aqui --> 
+>>>>>>> origin/master
 	  		  </div>
 		 	</div>
 		 </div>
@@ -213,11 +260,25 @@
 		    </div>
 		   <div class="clear"></div>
 		  </div>
+		  <table >
+		  	<tr ng-repeat="a in tdias track by $index">
+		  		<td ng-repeat="b in a track by $index">
+		  			<select type="select" class="form-control" ng-model="tdias2[$index][$parent.$index]" ng-options="c for c in Exfc"></select>
+		  			<select type="select" class="form-control" ng-model="tseries[$index][$parent.$index]" ng-options="c for c in txseries"></select>
+		  			<select type="select" class="form-control" ng-model="trepeticiones[$index][$parent.$index]" ng-options="c for c in txrepeticiones"></select>
+		  		</td>
+		  	</tr>
+		  </table>
+		  <div id="esp" style="width:50px;height:50px;background-color:red" ng-click="crtl.try()"/>
 	     </div>
 </body>
+<<<<<<< HEAD
 <script>
 	function myFunction() {
     		document.getElementById("PR").style.display = "block";
 	}
 </script>
 </html>
+=======
+</html>
+>>>>>>> origin/master

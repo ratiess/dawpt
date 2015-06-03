@@ -13,7 +13,15 @@ class AlimentosController extends BaseController {
 				return json_encode(array('alimentos' => $alimentos));
 				
 			}else{
+<<<<<<< HEAD
 				$alimentos = DB::table('alimentos')->list('id', 'descripcion');
+=======
+<<<<<<< HEAD
+				$alimentos = DB::table('alimentos')->list('id', 'descripcion');
+=======
+				$alimentos = DB::table('alimentos')->select('*')->get();
+>>>>>>> origin/master
+>>>>>>> origin/master
 				return json_encode(array('alimentos' => $alimentos));
 			}
 			

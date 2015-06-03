@@ -37,6 +37,7 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .aboutinfo .infomobile { cursor: pointer; text-align: center;}
 .aboutinfo .infomobile .box1_left {display: none;}
 .aboutinfo .infomobile .box1_right{width: 100%;}
@@ -49,6 +50,20 @@
 .aboutinfo .p-ww {display: none;}
 
 .aboutinfo .iniciosesionmobile {display: none;}
+=======
+.about .infomobile { cursor: pointer; text-align: center;}
+.about .infomobile .box1_left {display: none;}
+.about .infomobile .box1_right{width: 100%;}
+.about .sesionmobile, .contactmobile {display: none;}
+
+.about .login_details {width: 100%;} 
+
+
+/* CALENDARIO OUT */
+.about .p-ww {display: none;}
+
+.about .iniciosesionmobile {display: none;}
+>>>>>>> origin/master
 
 .galeriamobile,.patrocinadoresmobile {
     display: none;

@@ -78,7 +78,10 @@ class RegistroController extends BaseController {
         if(Auth::attempt($userdata)){
         	return Redirect::to('/inicio');
         }
+<<<<<<< HEAD
         else {return Redirect::to('/inicio');}
+=======
+>>>>>>> origin/master
 	}
 	}
 

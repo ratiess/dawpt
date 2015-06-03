@@ -80,6 +80,7 @@
 			   <li><a href="contacto">Contacto</a></li>
                 <li><a href="registro">Registro</a></li>
                <li><a href="iniciosesion">Inicio Sesión</a></li>
+               <li><a href="logout">Cerrar Sesión</a></li>
 			 </ul>
 			  <script type="text/javascript" src="js/nav.js"></script>
 		  </div><!-- end h_menu4 -->

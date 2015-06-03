@@ -30,7 +30,11 @@ class AuthController extends BaseController {
             'password'=> Input::get('password')
         );
 
+<<<<<<< HEAD
         if(Auth::attempt($userdata)){
+=======
+        if(Auth::attempt($userdata, Input::get('rememberme', 0))){
+>>>>>>> origin/master
         	return Redirect::to('/inicio');
         }
         return Redirect::to('login')
